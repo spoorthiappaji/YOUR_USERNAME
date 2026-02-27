@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FocusForge - AI Study Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>📚 FocusForge</h1>
+    <p>Create your AI-powered study plan</p>
+
+    <input type="text" id="subjects" placeholder="Enter subjects (e.g. Math, Biology, History)">
+    <input type="date" id="examDate">
+    <textarea id="hours" placeholder="How many hours can you study daily?"></textarea>
+
+    <button onclick="generatePlan()">Generate Study Plan</button>
+
+    <div id="result" class="hidden">
+        <h3>Your AI Study Plan</h3>
+        <p id="planOutput"></p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
